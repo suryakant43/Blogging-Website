@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@500&family=Montserrat:wght@100;900&family=Roboto:ital,wght@1,300&family=Ubuntu:wght@300;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.weidth-1 {
+    max-width: 80vw;
+    margin: auto;
+}
+
+
+
+/* .input-style {} */
+.top{
+    height: 40px;
+}
+
+.navigation {
+    height: 75px;
+    background-color: rgb(224, 224, 235);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Baloo 2', cursive;
+    /* position: fixed; */
+}
+.left{
+    font-size: 33px;
+    display: flex;
+    padding: 10px;
+}
+.left ul{
+    display: flex;
+    align-items: center;
+    margin: 0 77px;
+    font-size: 19px;
+    
+}
+.left ul li{
+    list-style: none;
+    margin: 0 10px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.left ul li a{
+    text-decoration: none;
+    color:black;
+}
+.left ul li a:hover{
+    color: rgb(144, 133, 82);
+    font-weight: bolder;
+}
+.right{
+    padding: 5px;
+}
+.input-style{
+    padding: 4px 15px;
+    border-radius: 10px;
+    font-size: 16px;
+    border: 2px solid black;
+    font-family: 'Baloo 2', cursive;
+}
+.button {
+    padding: 3px 20px;
+    border-radius: 15px;
+    border: 2px solid black;
+    font-family: 'Baloo 2', cursive;
+    cursor: pointer;
+}
+.button:hover{
+    color: white;
+    background-color: rgb(89, 68, 68);
+}
+
+.content {
+    height: 264px;
+    /* background-color: rgb(210, 210, 240); */
+    background-image: url('images/homeback.webp');
+    display: flex;
+}
+.content-left{
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    /* width: 50%; */
+    /* align-items: center; */
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px 15px 18px;
+}
+.content-left a{
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bolder;
+    padding: 0px 0px 20px;
+}
+.content-left a:hover{
+    color: blue;
+    cursor: pointer;
+}
+.content-rigth{
+    /* width: 50%; */
+    display: flex;
+    /* align-items: center; */
+    padding: 5;
+    padding-right: 60px;
+}
+.content-rigth img{
+    height: 250px;
+    width: 250px;
+    border : 2px solid black;
+    border-radius: 200px;
+}
+.trendings{
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    background-color:rgb(215, 223, 195);
+    padding: 7px 0px;
+}
+.trending-content{
+    background-color:rgb(215, 223, 195);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin: 20px 0px; */
+}
+.blog-box{
+    width: 30%;
+    background-color: rgb(219, 196, 196);
+    border: 2px solid black;
+    margin: 20px;
+}
+.blog-image{
+    height:200px;
+    width: auto;
+}
+.blog-image img{
+    height:200px;
+    width: 366px;
+}
+.blog-title{
+    font-family: 'Baloo 2', cursive;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.blog-title:hover{
+    color: blue;
+}
+.blog-box p{
+    padding: 4px;
+}
+.blog-text a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.normal-blogs{
+    height : 895px;
+    background-color:rgb(215, 223, 195);
+    /* display: flex;
+    flex-direction: column; */
+    /* padding: 10px; */
+}
+
+.nblog-box{
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+    /* border: 2px solid black; */
+}
+.nblog-text{
+    padding: 8px;
+    
+}
+.nblog-image{
+    height:200px;
+    width: auto;
+}
+.nblog-img img{
+    height:150px;
+    width: 300px;
+}
+.nblog-title{
+    font-family: 'Baloo 2', cursive;
+    font-weight: bolder;
+    font-size: 20px;
+    padding: 2px 3px 4px;
+}
+.nblog-text a{
+    text-decoration: none;
+    color: black;
+}
+.nblog-text a:hover{
+    color: rgb(1, 1, 254);
+    text-decoration: underline;
+}
+
+.footer {
+    height: 230px;
+    background-color: rgb(101, 101, 120);
+    display: flex;
+    justify-content: center;
+}
+.footr-left{
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    width: 30%;
+    flex-direction: column;
+    justify-content: center;
+}
+.footr-left span{
+    padding: 35px;
+    font-size: 25px;
+    font-weight: bolder;
+    font-family: 'Ubuntu', sans-serif;  
+}
+.footr-left p{
+    padding: 40px 5px px;
+    color: white;
+    font-size: 10px;
+}
+.footer-right{
+    margin: 30px 45px;
+}
+.footer-img img{
+    height: 25px;
+    width: 25px;
+    align-items: centers;
+    border-radius: 11px;
+}
+.footer-img a{
+    text-decoration: none;
+    color: black;
+    padding: 5px 10px;
+}
+.footer-img a:hover{
+    text-decoration: underline;
+    color: rgb(100, 190, 232);
+}
+.last-text{
+    padding: 15px;
+    font-size: 13px;
+}
